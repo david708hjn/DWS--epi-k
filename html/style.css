@@ -1,0 +1,54 @@
+
+body {
+    font-family: 'arial', sans-serif;
+    background: linear-gradient(135deg, #8b8d91 0%, #0c0f13 100%);
+    margin: 2;
+    padding: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.prvniukol {
+    background-color: rgb(114, 114, 119);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+h1 {
+    color: #3a0efa;
+    margin-bottom: 10px;
+    width: 100%; 
+}
+
+button {
+    background-color: #391be7;
+    color: rgb(2, 1, 1);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    color: #1940ee;
+    width: 100%; 
+}
+
+p {
+    font-size: 18px;
+    color: #312df5;
+    margin-top: 10px;
+    width: 100%; 
+}
